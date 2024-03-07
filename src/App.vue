@@ -8,7 +8,9 @@
   <router-link to="/myRef">Vue3里面Ref</router-link><br />
   <router-link to="/MyReactive">Vue3里面Reactive</router-link><br />
   <router-link to="/watchRef">Vue3里面watch监听Ref</router-link><br />
-  <router-link to="/watchReactive">Vue3里面watchEffect监视ref和reactive定义的响应式数据f</router-link>
+  <router-link to="/watchReactive">Vue3里面watchEffect监视ref和reactive定义的响应式数据f</router-link><br />
+  <router-link to="/toRefs">toRef与toRefs</router-link><br />
+  <router-link to="/provide">provide(祖)和inject（孙）交互</router-link>
 
   
    <!-- 声明路由的占位符 -->

@@ -33,6 +33,21 @@ const routes = [
         name: "watchReactive",
         path: "/watchReactive",
         component: () => import("../components/views/watchReactive.vue")
+    },
+    {
+        name: "toRefs",
+        path: "/toRefs",
+        component: () => import("../components/views/toRef(s).vue")
+    },
+    {
+        name: "provide",
+        path: "/provide",
+        component: () => import("../components/views/provide.vue")
+    },
+    {
+        name: "inject",
+        path: "/inject",
+        component: () => import("../components/views/inject.vue")
     }
  
 ]
